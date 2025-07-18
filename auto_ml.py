@@ -6,7 +6,7 @@ from sklearn.linear_model import LogisticRegression  # The machine learning mode
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix  # For evaluating model performance
 from sklearn.compose import ColumnTransformer  # For applying different preprocessing to different columns
 from sklearn.pipeline import Pipeline  # For chaining preprocessing and modeling steps
-import joblib  # For saving and loading trained models
+import joblib  # For saving and loading trained models to the file
 
 
 def auto_train_model(
